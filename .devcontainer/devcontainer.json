@@ -1,0 +1,15 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/devcontainer-config/features/dot-config:4": {},
+		"ghcr.io/postfinance/devcontainer-features/node:1": {
+			"version": "20.11.1",
+			"npmVersion": "10.5.0",
+			"yarnVersion": "1.22.22",
+			"pnpmVersion": "9.14.2",
+			"corepackVersion": "0.34.0",
+			"downloadUrl": "https://mycompany.com/artifactory/nodejs-generic-remote/dist",
+			"globalNpmRegistry": "https://mycompany.com/artifactory/api/npm/npm/"
+		}
+	}
+}
