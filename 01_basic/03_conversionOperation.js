@@ -23,7 +23,44 @@ console.log(booleanlogin)
 //""=>false
 //"sagar" =>true
 
-let sumnumber =22
-let stringnumbr = String(sumnumber)
-console.log(stringnumber)
-console.log(typeof stringnumbr)
+// let sumnumber =22
+// let stringnumbr = String(sumnumber)
+// console.log(stringnumber)
+// console.log(typeof stringnumbr)
+
+//***********operation**********//
+
+let value = 3
+let negvalue = -value
+console.log(negvalue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2);
+// console.log(2/2);
+// console.log(2%2);
+
+let str1= "hello"
+let str2 = " sagar"
+let str3 = str1+str2
+console.log(str3);
+
+console.log("1" + 2);
+console.log(1+"2");
+console.log("1"+2+2);
+console.log(2+2+"1");
+
+console.log(3+3*5%6);
+
+// console.log(+true);
+// console.log(true+);
+// console.log(+"");
+
+let counter = 100
+++counter;
+console.log(counter);
+
+let number = 100
+number++;
+console.log(number);
