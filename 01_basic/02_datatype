@@ -1,0 +1,24 @@
+"use strict"; //treat all js code as newer version
+
+//alert(3+3)  we use this in browser not in node js
+
+console.log(3+3)
+
+console.log("sagar")
+
+let name = "sagar"
+let age = 18
+let islogedIn = false
+
+//number =>2 to power 53
+//bigint  // use for large numberr 
+//string => ""
+//boolean => true/false
+//null => standalone valu
+//undefined =>
+//symbol => unique
+
+//object
+
+console.log(typeof undefined);  //undefied
+console.log(typeof null); //object
